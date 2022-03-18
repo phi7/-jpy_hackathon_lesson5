@@ -6,7 +6,7 @@ async function myFunction() {
 
 async function myFunction2(){
   const provider = await new ethers.providers.Web3Provider(window.ethereum);
-  addresses = await ethereum.request({method:'eth_requestAccounts'});
+  const addresses = await ethereum.request({method:'eth_requestAccounts'});
   const signer = await provider.getSigner();
   alert(addresses[0]);
 }
