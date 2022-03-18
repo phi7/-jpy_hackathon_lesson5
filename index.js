@@ -14,5 +14,5 @@ async function myFunction2(){
 
 window.onload = async function(){
   myFunction();
-  myFunction2()+
+  myFunction2();
 }
